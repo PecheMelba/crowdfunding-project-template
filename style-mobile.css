@@ -80,8 +80,10 @@ nav hr
 #img-intro
 {
     position: relative;
-    top:-11vw;
-    width: 20%;
+    top:-7vw;
+    width: auto;
+    height: 10vw;
+    min-height: 50px;
 }
 h1
 {
@@ -110,19 +112,12 @@ p
     font-weight:bold;
     padding: 1.3em 1em 1.3em 1em;
     border-radius: 2em;
-    width:70%;
-    
+    width:70%; 
 }
 #boockmark-pannel
 {
     display: block;
-    width: 20%;
-        
-}
-#boockmark-logo
-{
-    /* width: 100%; */
-    /* height: fit-content; */
+    width: 20%;        
 }
 #boockmark-btn {display: none;}
 
