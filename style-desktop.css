@@ -1,0 +1,267 @@
+
+@media all and (min-width: 900px)
+{
+    body
+    {
+        background: url("images/image-hero-desktop.jpg") no-repeat  0 0 / 100% auto;
+    }
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #header-menu
+    {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #menu-open, #menu-bg {display: none;}
+    nav
+    {
+        display: flex;
+        justify-content: flex-end;
+        position: inherit;        
+        background-color: rgba(231, 68, 68, 0);
+        color: rgb(255, 255, 255);
+        padding: 0;
+        margin: 0;
+        width: 75vw;
+        top:auto;   
+        font-size: 1.2em;         
+    }
+    nav div
+    {
+        width: auto;
+    }
+
+    /* ----------------Stats pannel------------------- */
+    #stats
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;     
+        margin: 0 auto;   
+        width: 90%;
+    }
+    #stats hr
+    {
+        width: 1px;
+        height: 100px;
+        border: none;
+        background-color: rgb(199, 199, 199);
+    }
+
+    /* intro pannel */
+    #intro-project
+    {
+        width: 55%;                
+    }
+    #intro-project h1
+    {
+        font-size: 1.7em;        
+    }
+    #img-intro
+    {
+        top:-4.3vw;
+        width: 10%;        
+    }
+    /* back */
+    #back-container
+    {
+        position: relative;
+        width: 80%;
+        justify-content: space-between;
+    }
+    #back-project-btn
+    {
+        width:32%;
+    }
+    #back-project-btn:hover
+    {
+        cursor: pointer;
+        background-color: hsl(176, 46%, 27%);
+    }
+    #boockmark-pannel
+    {
+        display: flex;
+        justify-content: center;
+        width: 20%;    
+    }
+    #boockmark-logo
+    {
+        width: 6.5vw;
+        margin-right: -35%;
+        z-index: 1;
+    }
+    #boockmark-btn
+    {      
+        display: block;
+        background-color: rgb(224, 224, 224);
+        padding: 1.3em 2em 1.3em 3em;
+        border-radius: 2em;
+        font-weight: bold;
+        margin-right: 5vw;
+    }
+    #boockmark-btn:hover
+    {
+        cursor: pointer;
+        background-color: hsla(0, 0%, 93%, 0.801);
+    }
+
+    #boockmark-logo:hover
+    {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    #boockmark-logo:hover + #boockmark-btn
+    {
+        cursor: pointer;
+        background-color: hsla(0, 0%, 93%, 0.801);
+    }
+    
+    #stats-container, #about-pannel
+    {
+        width:55%;
+    }
+
+    /* ----------About pannel---------- */
+    #back-project
+    {
+        width: 50%;
+        padding: 2em 5em 2em 5em;
+    }
+    #close-back-pannel
+    {            
+        width: 3%;        
+    }
+    #header-back-pannel,#back-project p
+    {
+        width: 104%;
+    }
+
+    /* Reward */
+    .reward-title-container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .reward-title
+    {
+        margin-right: 1em;
+        margin-bottom: 0em;
+    }
+    .reward-footer
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .select-btn
+    {
+        margin: 0;
+    }
+    .select-btn:hover
+    {
+        cursor: pointer;
+        background-color: hsl(176, 46%, 27%);
+    }
+
+
+    /* -------------back pannel----------- */
+    #back-project-pannel
+    {
+        width: 100vw;        
+        z-index: 2;
+    }
+    #close-back-pannel:hover
+    {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    /* Pledge */
+    .pledge-container
+    {
+        position: relative;
+    }
+    .pledge-header
+    {
+        justify-content: flex-start;
+    }
+    .pledge-title
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+    }
+    .pledge-title-main-txt
+    {
+        margin-right: 1em;
+        margin-bottom: 0.1em;
+    }
+    .pledge-title-sub-txt
+    {
+        margin-bottom: 0.1em;
+    }
+    .pledge-amount-container
+    {
+        position: absolute;
+        top:1.5em;
+        right: 1em;
+    }
+
+    /* Custom pledge */
+    .pledge-custom
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: 2em auto 0 auto;
+    }
+    .pledge-title-main-txt:hover
+    {
+        cursor: pointer;
+        color:hsl(176, 50%, 47%);
+    }
+    .pledge-custom-nb
+    {
+        width:7vw;
+    }
+    .pledge-custom-nb:hover
+    {
+        cursor: pointer;
+        border: 1px hsl(176, 50%, 47%) solid;
+    }
+    .custom-pledge-contniue-btn
+    {
+        width:10vw;
+    }
+    .custom-pledge-contniue-btn:hover
+    {
+        cursor: pointer;
+        background-color: hsl(176, 46%, 27%);        
+    }
+    /* -----------------Thanks message------------------ */
+    #thanks-message-pannel
+    {
+        width: 100vw;
+    }
+    #thanks-message-container
+    {
+        width: 30%;
+        margin: 15vw auto 0 auto;
+        padding: 2vw 3vw 2vw 3vw;
+    }
+    #thanks-message-container img {margin-bottom: 2vw;}
+    #got-it-btn:hover
+    {
+        cursor: pointer;
+        background-color: hsl(176, 46%, 27%);
+    }
+}
