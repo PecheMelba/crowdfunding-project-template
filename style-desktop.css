@@ -33,9 +33,12 @@
         top:auto;   
         font-size: 1.2em;         
     }
-    nav div
+    ul {display: flex; list-style-type: none;}
+    ul li
     {
         width: auto;
+        margin: 1em;
+        font-weight: bold;
     }
 
     /* ----------------Stats pannel------------------- */
@@ -58,7 +61,8 @@
     /* intro pannel */
     #intro-project
     {
-        width: 55%;                
+        width: 55%;   
+        max-width: 1000px;             
     }
     #intro-project h1
     {
@@ -74,7 +78,7 @@
     {
         position: relative;
         width: 80%;
-        justify-content: space-between;
+        justify-content: space-between;        
     }
     #back-project-btn
     {
@@ -87,60 +91,47 @@
     }
     #boockmark-pannel
     {
-        display: flex;
-        justify-content: center;
-        width: 20%;    
+        position: relative;
+        width: 200px;   
+        background-color: rgb(224, 224, 224);    
+        border-radius: 4em;
     }
     #boockmark-logo
     {
-        width: 6.5vw;
-        margin-right: -35%;
+        position: absolute;
+        left: 0;
+        width: 60px;    
         z-index: 1;
     }
     #boockmark-btn
     {      
-        display: block;
-        background-color: rgb(224, 224, 224);
-        padding: 1.3em 2em 1.3em 3em;
-        border-radius: 2em;
-        font-weight: bold;
-        margin-right: 5vw;
+        display: block;        
+        padding: 1.3em 2em 1.3em 3em;        
+        font-weight: bold;        
+        text-align: right;        
     }
-    #boockmark-btn:hover
+    #boockmark-pannel:hover 
     {
         cursor: pointer;
         background-color: hsla(0, 0%, 93%, 0.801);
-    }
-
-    #boockmark-logo:hover
-    {
-        cursor: pointer;
+        border-radius: 4em;
         opacity: 0.7;
-    }
-    #boockmark-logo:hover + #boockmark-btn
-    {
-        cursor: pointer;
-        background-color: hsla(0, 0%, 93%, 0.801);
+
     }
     
-    #stats-container, #about-pannel
-    {
-        width:55%;
-    }
+    
+    #stats-container, #about-pannel{width:55%; max-width: 800px;}
 
     /* ----------About pannel---------- */
     #back-project
     {
         width: 50%;
+        max-width: 900px;        
         padding: 2em 5em 2em 5em;
     }
     #close-back-pannel
     {            
         width: 3%;        
-    }
-    #header-back-pannel,#back-project p
-    {
-        width: 104%;
     }
 
     /* Reward */
